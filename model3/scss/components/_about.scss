@@ -1,0 +1,36 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F5F5DC;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
+
+.about-content .register {
+    margin-bottom: 30px;
+}
+
+.about-name {
+    margin-top: 10px;
+    font-size: 36px;
+    border-radius: 10px;
+}
+
+.about-description {
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.about-img {
+    height: 400px;
+}
+
+.about-img img{
+    display: flex;
+    margin: auto;
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+}

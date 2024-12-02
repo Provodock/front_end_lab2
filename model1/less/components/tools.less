@@ -1,0 +1,40 @@
+.tools {
+  &-image {
+    img {
+      display: flex;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 55%;
+      padding-inline: 10px;
+      object-fit: cover;
+      border-radius: 50px;
+    }
+  }
+
+  &-title {
+    h1 {
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      color: @accent-color;
+      .text-shadow();
+      border-radius: 5px;
+      font-size: 24px;
+    }
+  }
+
+  &-description {
+    text-align: center;
+    color: @text-color;
+    .text-shadow();
+    line-height: 1.6;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+  }
+}

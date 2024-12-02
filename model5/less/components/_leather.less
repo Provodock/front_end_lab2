@@ -1,0 +1,37 @@
+.leather {
+  &-info {
+    color: @black;
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 1fr;
+    max-width: 600px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+    img {
+      .image-cover();
+    }
+  }
+
+  &-title {
+    color: @black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}

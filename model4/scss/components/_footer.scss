@@ -1,0 +1,9 @@
+.footer {
+  @include flex-center;
+  position: relative;
+  height: 35px;
+  width: 100%;
+  border-top: 1px solid $border-color;
+  background-color: $primary-color;
+  font-size: 16px;
+}

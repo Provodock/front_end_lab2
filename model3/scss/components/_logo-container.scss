@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    width: 50px;
+    font-weight: 700;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo-container i {
+    margin-right: 10px;
+    font-size: 48px;
+}
+
+.logo-container h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}

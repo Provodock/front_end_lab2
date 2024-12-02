@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    background-color: #B87333;
+    height: 70px;
+    padding-inline: 10px;
+}
+
+.header-logo {
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header-logo:hover {
+    opacity: 0.7;
+}

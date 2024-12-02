@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10px;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .top {
+    &-navigation {
+      display: none;
+    }
+
+    &-logo {
+      justify-content: center;
+      gap: 10px;
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    &-search {
+      width: 250px;
+      margin-right: 0;
+    }
+
+    &-burger-btn {
+      display: block;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+
+  .tools {
+    &-body {
+      padding-inline: 10px;
+    }
+
+    &-image {
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+  .footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+}

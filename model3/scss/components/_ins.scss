@@ -1,0 +1,35 @@
+.ins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    background-color: #F5F5DC;
+    gap: 30px;
+}
+
+.ins .register {
+    width: 230px;
+}
+
+.ins-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.ins-bag {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+}
+
+.ins-content {
+    padding: 10px 10px 10px ;
+}
+
+.ins-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}

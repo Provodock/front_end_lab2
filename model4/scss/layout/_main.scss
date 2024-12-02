@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ins {
+  padding-block: 20px;
+  width: 100%;
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
